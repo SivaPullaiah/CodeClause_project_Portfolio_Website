@@ -1,0 +1,19 @@
+.header-contatiner-resume {
+    width: 100%;
+}
+.blur-header {
+    background-color: #9393931a;
+    backdrop-filter: blur(20px);
+}
+.char-linear-grad {
+    background: linear-gradient(to right, #240b36, #c31432);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
