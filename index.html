@@ -20,7 +20,7 @@
 <!-- body -->
 <body>
     <!-- customized bootstrap navbar -->
-    <div class="header-contatiner-resume fixed-top">
+    <div class="header-contatiner-resume fixed-top" id="home">
         <nav class="navbar navbar-expand-sm navbar-light">
             <a class="navbar-brand ml-3" href="#"><img src="https://res.cloudinary.com/sivapullaiah/image/upload/v1685800237/SiVA__4_-removebg-preview_jrqj47.png" height="40" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,16 +33,16 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Articles</a>
+                <a class="nav-link" href="#articles">Articles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#project">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blogs</a>
+                    <a class="nav-link" href="#blogs">Blogs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
             </div>
@@ -56,7 +56,7 @@
             </div>
             <div class="container info col-11 col-md-6 m-auto">
                 <h1 style="font-size: 55px;">I'm <span style="color: #fb5607;">SiVA</span> Pullaiah 👋</h1>
-                <p style="font-size: 18px;">Hello, I am Siva, a Full Stack Developer with a passion for creating immersive digital experiences. From elegant designs to powerful functionality, I specialize in building innovative solutions that bridge the gap between art and technology. Step into my world, where imagination meets code.</p>
+                <p style="font-size: 18px;">Hello, I am Siva, a Full Stack Developer with a passion for creating immersive digital experiences <img src="https://cdna.iconscout.com/img/exclusive.1e1be47.svg" alt="">. From elegant designs to powerful functionality, I specialize in building innovative solutions that bridge the gap between art and technology. Step into my world, where imagination meets code.</p>
                 <div>
                     <a href="https://drive.google.com/file/d/1CvP25Su4hLkwZjyC7HJ8mc7G63haGyEb/view?usp=sharing" target="_blank"><button class="btn btn-primary">Resume</button></a>
                     <div class="follow mt-5 mb-4">
@@ -71,7 +71,7 @@
     </div>
 
     <!-- articles -->
-    <div class="container articles" id="articles">
+    <div id="articles" class="container articles">
         <div class="article-head">
             <h1 class="p-3 hash">Articles</h1>
             <p class="p-4 white">Here you find my feature ariticles
@@ -79,21 +79,53 @@
             </p>
         </div>
         <div class="row article-container">
-            <div class="article">
+            <div class="article bard-font">
                 <div class="col-12 d-flex flex-column justify-content-center">
-                    <div class="article1 articlebg1">
-                        <img class="article1" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680691579/siva_portfolio/GATE-2023-Registration-Organising-Institute_bqk419.jpg" alt="">
+                    <div class="p-3 article1 articlebg1 d-flex flex-row justify-content-between" style="background: #303030;">
+                        <div>
+                            <h1 class="white strink-font-size">Artificial Intelligence</h1>
+                            <p class="white" style="font-size: 16px;">AI: Transforming Industries, Ethical Considerations.</p>
+                        </div>
+                        <img src="C:\Users\manga\Dropbox\PC\Downloads\artificial-intelligence.png" alt="">
+                        <!-- <img class="article1" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680691579/siva_portfolio/GATE-2023-Registration-Organising-Institute_bqk419.jpg" alt=""> -->
                     </div>
                     <div class="article-disc">
-                        <h1 class="aticle-head">My GATE experience</h1>
-                        <p>My exam was Feb-4-2023, 9:30am. In the exam There are totally 2 sections
-                            Section 1 : 10 questions
-                            Section 2 : 55 questions
-                            1 mark followed by 2 mark questions will be give</p>
-                        <p>Note1: It was just like NPTEL exam Interface only
-                            Out of 65/40 was Answered.</p>
-                        <p>Note2: MSQ (Munltiple Selection Questons), NAT (Numarical Answer Type) was No -ve marks,
-                            only for MCQ's contain -ve marks in the form of 1 mark wrong selection 1/3, 2 mark wrong selection 2/3 will be the negative</p>
+                        <h2 class="aticle-head"> Title: The Future of Artificial Intelligence: Unlocking Boundless Possibilities</h2>
+                            <p>
+
+                            In recent years, artificial intelligence (AI) has made remarkable strides, and its potential for shaping the future is immense. As AI continues to evolve, it is set to revolutionize industries and transform our daily lives. 
+
+                            One area where AI holds tremendous promise is autonomous vehicles, with self-driving cars poised to redefine transportation. Moreover, AI-powered healthcare systems can enhance diagnosis accuracy, personalized treatments, and drug discovery, leading to improved patient outcomes. In the realm of customer service, AI chatbots and virtual assistants are becoming more sophisticated, providing efficient and personalized experiences.
+
+                            However, concerns over ethical implications, privacy, and job displacement remain. Striking the right balance between innovation and responsible AI development is crucial.
+
+                            As we move forward, embracing AI's potential while addressing its challenges will be pivotal. By fostering collaboration, investment in research, and ethical guidelines, we can shape a future where AI amplifies human capabilities, creates new opportunities, and advances society as a whole. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row article-container mt-3">
+            <div class="article bard-font">
+                <div class="col-12 d-flex flex-column justify-content-center">
+                    <div class="p-3 article1 articlebg1 d-flex flex-row justify-content-between" style="background: #303030;">
+                        <div>
+                            <h1 class="white strink-font-size">Blockchain Technology</h1>
+                            <p class="white" style="font-size: 16px;">Blockchain: Transforming Industries, Empowering Individuals.</p>
+                        </div>
+                        <img src="C:\Users\manga\Dropbox\PC\Downloads\qrcode.png" alt="">
+                        <!-- <img class="article1" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680691579/siva_portfolio/GATE-2023-Registration-Organising-Institute_bqk419.jpg" alt=""> -->
+                    </div>
+                    <div class="article-disc">
+                        <h2 class="aticle-head">Title: The Rise of Blockchain Technology: Revolutionizing Trust and Transparency</h2>
+                            <p>
+
+                                Blockchain technology has emerged as a groundbreaking innovation, disrupting traditional industries and revolutionizing the way we conduct transactions and share data. With its decentralized and transparent nature, blockchain is poised to transform various sectors.
+                                
+                                In finance, blockchain enables secure and efficient peer-to-peer transactions, eliminating intermediaries and reducing costs. Moreover, its immutable and auditable nature enhances transparency, reducing fraud and enhancing trust. Beyond finance, blockchain has applications in supply chain management, healthcare, voting systems, and more.
+                                
+                                However, challenges such as scalability, regulatory frameworks, and energy consumption must be addressed. Collaborative efforts are crucial to ensure widespread adoption and standardization.
+                                
+                                As blockchain technology continues to evolve, its potential for reshaping industries and empowering individuals is immense. Embracing this technology can lead to enhanced security, efficiency, and trust, paving the way for a future where decentralized systems drive innovation and empower individuals worldwide. </p>
                     </div>
                 </div>
             </div>
@@ -106,14 +138,16 @@
                     </div>
                     <div class="article-disc">
                         <h1 class="aticle-head">My GATE experience</h1>
-                        <p>My exam was Feb-4-2023, 9:30am. In the exam There are totally 2 sections
-                            Section 1 : 10 questions
-                            Section 2 : 55 questions
-                            1 mark followed by 2 mark questions will be give</p>
-                        <p>Note1: It was just like NPTEL exam Interface only
-                            Out of 65/40 was Answered.</p>
-                        <p>Note2: MSQ (Munltiple Selection Questons), NAT (Numarical Answer Type) was No -ve marks,
-                            only for MCQ's contain -ve marks in the form of 1 mark wrong selection 1/3, 2 mark wrong selection 2/3 will be the negative</p>
+                        <h5>Title: Demystifying the GATE Exam Pattern: A Pathway to Success in Engineering Admissions</h5>
+                        <p>The GATE (Graduate Aptitude Test in Engineering) exam follows a well-defined pattern designed to assess a candidate's comprehensive understanding of engineering concepts. By understanding the exam pattern, aspiring candidates can formulate effective strategies for preparation and optimize their performance on exam day.
+                            
+                            The GATE exam consists of a total of 65 questions carrying 100 marks. These questions are divided into two types: Multiple-Choice Questions (MCQs) and Numerical Answer Type Questions (NATs).
+                            
+                            MCQs, the most common question type, have four options, of which only one is correct. They carry one or two marks each. On the other hand, NATs require candidates to enter the numerical answer using a virtual keypad. These questions carry one or two marks each as well.
+                            
+                            Negative marking is applicable for MCQs. For each incorrect response in MCQs carrying one mark, 1/3 mark is deducted, while for each incorrect response in MCQs carrying two marks, 2/3 marks are deducted. However, there is no negative marking for NATs.
+                            
+                            By understanding the question distribution, types, and negative marking scheme of the GATE exam, candidates can adopt a targeted and balanced approach to their preparation, focusing on areas that require more attention and practicing time management skills to complete the exam within the allocated time frame.</p>
                     </div>
                 </div>
             </div>
@@ -121,11 +155,11 @@
     </div>
 
     <!-- projects -->
-    <div class="container projects mt-3">
-        <div class="article-head" style="background-color: #ffbe0b;">
+    <div id="project" class="container projects mt-3">
+        <div class="projects-head" style="background-color: #ffbe0b;">
             <h1 class="p-3 hash">Projects</h1>
-            <p class="p-4 white">Here you find my feature ariticles
-                <br/>see below articles about letest and trending tech
+            <p class="p-4 black">Here is some of my interesting projects
+                <br/>As port of NextWave Training
             </p>
         </div>
         <div class="row projects-container d-flex flex-row justify-content-center">
@@ -135,7 +169,7 @@
                         <img class="pro1-banner" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680441948/portfolio_projects/project6_asjwdm.png" alt="">
                         <div class="overlay overlay_3">
                             <h3>freeholds</h3>
-                            <p>You can find best flats</p>
+                            <p class="hash">You can find best flats</p>
                         </div>
                     </a>
                 </div>
@@ -146,7 +180,7 @@
                         <img class="pro1-banner" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680441946/portfolio_projects/project1_gfibob.png" alt="">
                         <div class="overlay overlay_3">
                             <h3>My Portfolio</h3>
-                            <p>This is another project for my personal projects</p>
+                            <p class="hash">This is another project for my personal projects</p>
                         </div>
                     </a>
                 </div>
@@ -193,7 +227,7 @@
                     <a href="https://sivaminiproject.ccbp.tech/" target="_blank">
                         <img class="pro1-banner" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680441961/portfolio_projects/project5_n6uvyn.png" alt="">
                         <div class="overlay overlay_3">
-                            <h3 class="white">My mini project</h3>
+                            <h3>My mini project</h3>
                             <p class="hash">This my first mini project</p>
                         </div>
                     </a>
@@ -205,8 +239,8 @@
 
 
     <!-- blogs -->
-    <div class="container blogs mt-3">
-        <div class="article-head" style="background-color: #8338ec;">
+    <div id="blogs" class="container blogs mt-3">
+        <div class="blog-head" style="background-color: #8338ec;">
             <h1 class="p-3 hash">Blogs</h1>
             <p class="p-4 white">Here you find my feature blogs
                 <br/>see below blogs about letest and trending tech
@@ -215,27 +249,27 @@
         <div class="row blog-container d-flex flex-row justify-content-between">
             <div class="blog">
                 <div class="col-12">
-                    <div class="blog1 blogbg1 d-flex align-items-center justify-content-between">
-                        <h1 class="blog-heading">Ripple 2k23</h1>
+                    <div class="blog1 blogbg2 d-flex align-items-center justify-content-between">
+                        <h1 class="blog-heading">Google BARD</h1>
                         <div class="expand">
-                            <img class="expand-img" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680673821/siva_portfolio/expand_n1syvj.png" alt="">
+                            <img class="expand-img" src="https://www.gstatic.com/lamda/images/sparkle_resting_v2_darkmode_2bdb7df2724e450073ede.gif" alt="">
                         </div>
                     </div>
                     <div class="blog-disc">
-                        <p>This is a cognitive fest for the students of RGMCET, Nandyal and Others. The talents of students in various fields of engineering and making them cognizant are the main vision of this symposium. </p>
+                        <p>Google's language model, Google BARD (Bidirectional Encoder Representations from Transformers), has shown impressive performance in understanding and generating text. It has the potential to revolutionize various applications, including chatbots, content generation, and language translation.</p>
                     </div>
                 </div>
             </div>
             <div class="blog">
                 <div class="col-12">
-                    <div class="blog1 blogbg2 d-flex align-items-center justify-content-between">
-                        <h1 class="blog-heading">Ripple 2k23</h1>
+                    <div class="blog1 blogbg1 d-flex align-items-center justify-content-between">
+                        <h1 class="blog-heading">ChatGPT AI</h1>
                         <div class="expand">
-                            <img class="expand-img" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680673821/siva_portfolio/expand_n1syvj.png" alt="">
+                            <img class="expand-img" src="https://chat.openai.com/favicon-32x32.png" alt="">
                         </div>
                     </div>
                     <div class="blog-disc">
-                        <p>This is a cognitive fest for the students of RGMCET, Nandyal and Others. The talents of students in various fields of engineering and making them cognizant are the main vision of this symposium. </p>
+                        <p>ChatGPT AI: Redefining Conversational Interactions with Human-like Responses and Contextual Understanding, Empowering Virtual Assistants, Customer Support Systems, and Various Applications that Require Advanced Language Comprehension and Generation Capabilities, Signifying a Milestone in Natural Language Processing Innovation.</p>
                     </div>
                 </div>
             </div>
@@ -244,26 +278,26 @@
             <div class="blog">
                 <div class="col-12">
                     <div class="blog1 blogbg3 d-flex align-items-center justify-content-between">
-                        <h1 class="blog-heading">Ripple 2k23</h1>
+                        <h1 class="blog-heading">Quantum Computing</h1>
                         <div class="expand">
-                            <img class="expand-img" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680673821/siva_portfolio/expand_n1syvj.png" alt="">
+                            <img class="expand-img" src="C:\Users\manga\Dropbox\PC\Downloads\chip.png" alt="">
                         </div>
                     </div>
                     <div class="blog-disc">
-                        <p>This is a cognitive fest for the students of RGMCET, Nandyal and Others. The talents of students in various fields of engineering and making them cognizant are the main vision of this symposium. </p>
+                        <p>Quantum Computing: Revolutionizing the Future of Technology by Leveraging Quantum Mechanics to Solve Complex Problems at Unparalleled Speeds, Enabling Transformative Innovations in Fields Such as Encryption, Drug Discovery, Optimization, and Artificial Intelligence.</p>
                     </div>
                 </div>
             </div>
             <div class="blog">
                 <div class="col-12">
                     <div class="blog1 blogbg4 d-flex align-items-center justify-content-between">
-                        <h1 class="blog-heading">Ripple 2k23</h1>
+                        <h1 class="blog-heading">Augmented Reality (AR)</h1>
                         <div class="expand">
-                            <img class="expand-img" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680673821/siva_portfolio/expand_n1syvj.png" alt="">
+                            <img class="expand-img" src="C:\Users\manga\Dropbox\PC\Downloads\augmented-reality.png" alt="">
                         </div>
                     </div>
                     <div class="blog-disc">
-                        <p>This is a cognitive fest for the students of RGMCET, Nandyal and Others. The talents of students in various fields of engineering and making them cognizant are the main vision of this symposium. </p>
+                        <p>Augmented Reality (AR): Blending Virtual and Real Worlds to Enhance User Experiences, Revolutionizing Industries like Gaming, Retail, Healthcare, Education, and Design, Opening Doors to Immersive Simulations, Interactive Visualization, Training, and Personalized Customer Engagement, and Paving the Way for Future Technological Advancements.</p>
                     </div>
                 </div>
             </div>
@@ -271,7 +305,7 @@
     </div>
 
     <!-- footer -->
-    <footer class="mt-3">
+    <footer id="contact" class="mt-3">
         <video id="footer-video" autoplay muted loop>
           <source src="https://res.cloudinary.com/sivapullaiah/video/upload/v1685940348/gradient.06f37abf_1_iyb6gv.mp4" type="video/mp4">
         </video>

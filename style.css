@@ -2,6 +2,12 @@
     font-family: 'gilmer', sans-serif;
     color: rgba(0, 0, 0, 0.7);
 }
+.black {
+  color: #000;
+}
+.white {
+  color: rgba(255, 255, 255, 0.7);
+}
 /* nav */
 .home-img {
     object-fit: contain;
@@ -68,12 +74,9 @@
   margin-top: 100px;
 }
 .article-head {
-  background-color: #fb5607;
+  background: url("https://cdn.iconscout.com/icon-pack/preview-mockup/digital-marketing-38-20036.png?f=avif&h=428&modified_at=1534571649");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-}
-.white {
-  color: rgba(255, 255, 255, 0.7);
 }
 .hash {
   color: #919596;
@@ -97,7 +100,8 @@
   border-right: 2px solid rgb(226, 232, 240);
   border-left: 2px solid rgb(226, 232, 240);
   border-top: 2px solid rgb(226, 232, 240);
-  height: 120px auto;
+  height: 170px;
+  overflow: hidden;
 }
 
 .aticle-head {
@@ -120,6 +124,11 @@
   height: auto;
   width: 550px;
   margin-top: 30px;
+}
+.blog-head {
+  background: url("https://cdna.iconscout.com/img/get-started.23be618.png?f=avif&w=1000");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .blog1 {
@@ -157,6 +166,8 @@
 }
 
 .blog-disc {
+  height: 160px;
+  overflow: hidden;
   padding: 10px;
   border-right: 2px solid rgb(226, 232, 240);
   border-left: 2px solid rgb(226, 232, 240);
@@ -222,6 +233,12 @@
   height: auto;
 }
 
+.projects-head {
+  background: url("https://cdna.iconscout.com/img/pattern-mockup@2x.a82c484.png");
+  object-fit: contain;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
 .project1 {
   border-radius: 10px;
   margin: 18px;
@@ -298,13 +315,23 @@
   font-family: 'Gilmer', sans-serif;
 }
 
+@font-face {
+  font-family: 'Bard-font';
+  src: url('https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.bard-font {
+  font-family: 'Bard-font', sans-serif;
+}
+
 footer {
   position: relative;
   overflow: hidden;
 }
 
 #footer-video {
-  border-top-left-radius: 50px;
+  border-top-left-radius: 170px;
   position: absolute;
   top: 0;
   left: 0;
@@ -332,6 +359,12 @@ footer {
   }
   .strink-img {
     height: 80px;
+  }
+  .pro1-banner {
+    width: 350px;
+  }
+  .strink-font-size{
+    font-size: 24px;
   }
 }
 
