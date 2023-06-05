@@ -1,6 +1,6 @@
 * {
-    color: black;
-    font-family: sans-serif;
+    font-family: 'gilmer', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
 }
 /* nav */
 .home-img {
@@ -73,7 +73,7 @@
   border-top-right-radius: 15px;
 }
 .white {
-  color: whitesmoke;
+  color: rgba(255, 255, 255, 0.7);
 }
 .hash {
   color: #919596;
@@ -285,9 +285,17 @@
   font-weight: normal;
   font-style: normal;
 }
-
 .Gilmer-Outline {
   font-family: 'CustomFont', sans-serif;
+}
+@font-face {
+  font-family: 'Gilmer';
+  src: url('https://lf16-fe.resso.me/obj/anote-fe/socrates/home-file/static/media/Gilmer-Medium.71f3c551.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.gilmer {
+  font-family: 'Gilmer', sans-serif;
 }
 
 footer {
