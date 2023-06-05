@@ -14,18 +14,6 @@
     <!-- for follow imgs -->
     <script src="https://kit.fontawesome.com/4fe251b024.js"></script>
     <!-- scroll blur effect -->
-    <script>
-        $(window).scroll(function() {
-            if($(document).scrollTop()>50) {
-                $(".header-contatiner-resume").addClass("blur-header");
-                $(".linear-grad-for-char").addClass("char-linear-grad");
-            }
-            else {
-                $(".header-contatiner-resume").removeClass("blur-header");
-                $(".linear-grad-for-char").removeClass("char-linear-grad");
-            }
-        });
-    </script>
 </head>
 
 <!-- body -->
@@ -59,22 +47,24 @@
             </div>
         </nav>
     </div>
+    <script src="blur.js"></script>
     <div class="container wrapper">
         <div class="content row d-flex flex-row justify-content-between">
-          <div class="col-12 col-md-6">
-            <img class="col-12 home-img" src="C:\Users\manga\OneDrive\Desktop\photo_2023-06-04_10-30-13-removebg.png" alt="">
-          </div>
-          <div class="info col-12 col-md-6 m-auto">
-            <h1 style="font-size: 55px;">I'm <span style="color: #fb5607;">SiVA</span> Pullaiah 👋</h1>
-            <p style="font-size: 18px;">Hello, I am Siva, a Full Stack Developer with a passion for creating immersive digital experiences. From elegant designs to powerful functionality, I specialize in building innovative solutions that bridge the gap between art and technology. Step into my world, where imagination meets code.</p>
-            <a href="https://drive.google.com/file/d/1CvP25Su4hLkwZjyC7HJ8mc7G63haGyEb/view?usp=sharing" target="_blank"><button class="btn btn-primary">Resume</button></a>
-            <div class="follow mt-5">
-                <a href="https://www.linkedin.com/in/sivapullaiahmangali/" target="_blank"><span class="fa-brands fa-linkedin-in"></span></a>
-                <a href="https://www.behance.net/sivapullaiah/" target="_blank"><span class="fa-brands fa-behance"></span></a>
-                <a href="https://github.com/SivaPullaiah/" target="_blank"><span class="fa-brands fa-github"></span></a>
+            <div class="col-12 col-md-6">
+                <img class="col-12 home-img" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1685931036/photo_2023-06-04_10-30-13-removebg_r4d2fx.png" alt="">
             </div>
-            
-          </div>
+            <div class="container info col-11 col-md-6 m-auto">
+                <h1 style="font-size: 55px;">I'm <span style="color: #fb5607;">SiVA</span> Pullaiah 👋</h1>
+                <p style="font-size: 18px;">Hello, I am Siva, a Full Stack Developer with a passion for creating immersive digital experiences. From elegant designs to powerful functionality, I specialize in building innovative solutions that bridge the gap between art and technology. Step into my world, where imagination meets code.</p>
+                <div>
+                    <a href="https://drive.google.com/file/d/1CvP25Su4hLkwZjyC7HJ8mc7G63haGyEb/view?usp=sharing" target="_blank"><button class="btn btn-primary">Resume</button></a>
+                    <div class="follow mt-5 mb-4">
+                        <a href="https://www.linkedin.com/in/sivapullaiahmangali/" target="_blank"><span class="fa-brands fa-linkedin-in"></span></a>
+                        <a href="https://www.behance.net/sivapullaiah/" target="_blank"><span class="fa-brands fa-behance"></span></a>
+                        <a href="https://github.com/SivaPullaiah/" target="_blank"><span class="fa-brands fa-github"></span></a>
+                    </div>
+                </div> 
+            </div>
         </div>
         <div class="background-shape"></div>
     </div>
@@ -125,6 +115,69 @@
                 </div>
             </div>
         </div>
-        
+    </div>
+    <div class="container blogs mt-3">
+        <div class="article-head" style="background-color: #8338ec;">
+            <h1 class="p-3 white">Blogs</h1>
+            <p class="p-4 white">Here you find my feature blogs
+                <br/>see below blogs about letest and trending tech
+            </p>
+        </div>
+        <div class="row blog-container d-flex flex-row justify-content-between">
+            <div class="blog">
+                <div class="col-12">
+                    <div class="blog1 blogbg1 d-flex align-items-center justify-content-between">
+                        <h1 class="blog-heading">Ripple 2k23</h1>
+                        <div class="expand">
+                            <img class="expand-img" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680673821/siva_portfolio/expand_n1syvj.png" alt="">
+                        </div>
+                    </div>
+                    <div class="blog-disc">
+                        <p>This is a cognitive fest for the students of RGMCET, Nandyal and Others. The talents of students in various fields of engineering and making them cognizant are the main vision of this symposium. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="col-12">
+                    <div class="blog1 blogbg2 d-flex align-items-center justify-content-between">
+                        <h1 class="blog-heading">Ripple 2k23</h1>
+                        <div class="expand">
+                            <img class="expand-img" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680673821/siva_portfolio/expand_n1syvj.png" alt="">
+                        </div>
+                    </div>
+                    <div class="blog-disc">
+                        <p>This is a cognitive fest for the students of RGMCET, Nandyal and Others. The talents of students in various fields of engineering and making them cognizant are the main vision of this symposium. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row blog-container d-flex flex-row justify-content-between">
+            <div class="blog">
+                <div class="col-12">
+                    <div class="blog1 blogbg3 d-flex align-items-center justify-content-between">
+                        <h1 class="blog-heading">Ripple 2k23</h1>
+                        <div class="expand">
+                            <img class="expand-img" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680673821/siva_portfolio/expand_n1syvj.png" alt="">
+                        </div>
+                    </div>
+                    <div class="blog-disc">
+                        <p>This is a cognitive fest for the students of RGMCET, Nandyal and Others. The talents of students in various fields of engineering and making them cognizant are the main vision of this symposium. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="col-12">
+                    <div class="blog1 blogbg4 d-flex align-items-center justify-content-between">
+                        <h1 class="blog-heading">Ripple 2k23</h1>
+                        <div class="expand">
+                            <img class="expand-img" src="https://res.cloudinary.com/sivapullaiah/image/upload/v1680673821/siva_portfolio/expand_n1syvj.png" alt="">
+                        </div>
+                    </div>
+                    <div class="blog-disc">
+                        <p>This is a cognitive fest for the students of RGMCET, Nandyal and Others. The talents of students in various fields of engineering and making them cognizant are the main vision of this symposium. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
